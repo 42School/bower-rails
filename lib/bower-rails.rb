@@ -53,7 +53,6 @@ module BowerRails
         @tasks << ['bower:resolve'] if @resolve_before_precompile
         @tasks.flatten!
         @tasks.uniq!
-        p @tasks
       end
   end
 
